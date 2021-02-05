@@ -1,0 +1,48 @@
+[debug] [2021-02-05T08:49:11.444Z] ----------------------------------------------------------------------
+[debug] [2021-02-05T08:49:11.448Z] Command:       C:\ninja\firebase-tools-instant-win.exe C:\Users\NGASH\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init hosting
+[debug] [2021-02-05T08:49:11.449Z] CLI Version:   9.2.2
+[debug] [2021-02-05T08:49:11.449Z] Platform:      win32
+[debug] [2021-02-05T08:49:11.449Z] Node Version:  v12.18.1
+[debug] [2021-02-05T08:49:11.452Z] Time:          Fri Feb 05 2021 11:49:11 GMT+0300 (East Africa Time)
+[debug] [2021-02-05T08:49:11.452Z] ----------------------------------------------------------------------
+[debug] [2021-02-05T08:49:11.453Z] 
+[debug] [2021-02-05T08:49:11.468Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-05T08:49:11.470Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\ninja
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using hustlebidders. 
+[debug] [2021-02-05T08:49:13.978Z] > refreshing access token with scopes: []
+[debug] [2021-02-05T08:49:13.979Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-05T08:49:14.779Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 05 Feb 2021 08:49:14 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-05T08:49:14.838Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hustlebidders [none]
+[debug] [2021-02-05T08:49:15.706Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hustlebidders 200
+[debug] [2021-02-05T08:49:15.706Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hustlebidders {"projectId":"hustlebidders","projectNumber":"1045831540548","displayName":"hustlebidders","name":"projects/hustlebidders","resources":{"hostingSite":"hustlebidders","realtimeDatabaseInstance":"hustlebidders-default-rtdb","storageBucket":"hustlebidders.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
